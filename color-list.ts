@@ -1,3 +1,31 @@
+import { MultiLanguageStringInterface } from '../base/multi-language-string';
+
+export interface ColorTagInterface {
+  _id: string;
+  name: MultiLanguageStringInterface;
+  hex: string;
+  colorListArray?: ColorInterface[];
+}
+
+export interface ColorInterface {
+  name: MultiLanguageStringInterface;
+  hex: string;
+}
+
+export interface ColorTagListObjetInterface {
+  white: ColorTagInterface;
+  red: ColorTagInterface;
+  pink: ColorTagInterface;
+  orange: ColorTagInterface;
+  yellow: ColorTagInterface;
+  purple: ColorTagInterface;
+  green: ColorTagInterface;
+  blue: ColorTagInterface;
+  brown: ColorTagInterface;
+  gray: ColorTagInterface;
+  black: ColorTagInterface;
+}
+
 export const colorListObject: ColorTagListObjetInterface = {
   white: {
     _id: 'white',

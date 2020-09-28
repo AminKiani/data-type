@@ -537,6 +537,7 @@ export const countryListObject: CountryListObjectInterface = {
           }
         ]
       },
+    ],
     flag: {
       alt: {
         en: 'Iran',
@@ -544,7 +545,7 @@ export const countryListObject: CountryListObjectInterface = {
       },
       uri: 'https://res.cloudinary.com/pazhnet/image/upload/v1571645755/image/svg-flag/ir_z7z8k6.svg'
     }
-  }
+  },
   us: {
     _id: 'us',
     globalName: 'United States of America',
